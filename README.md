@@ -10,11 +10,12 @@ To simulate real behavior as closely as possible and to drive the message that e
 ## Requirements:
 ### Iteration 1:
 The requirements for the program are as follows:
-Print numbers from 1 to 100.
-But for the multiples of 3, print `Fizz` instead and for multiples of 5, print `Buzz`. \
-For multiples of both, print `FizzBuzz`.
+ - Print numbers from 1 to 100.
+ - But for the multiples of 3, print `Fizz` instead and for multiples of 5, print `Buzz`.
+ - For multiples of both, print `FizzBuzz`.
 
 #### Expected Output
+```
 1
 2
 Fizz
@@ -162,11 +163,12 @@ Fizz
 99
 Buzz
 100
+```
 
 ### Iteration 2:
-If the number contains a 3 (for example 23), print `Bizz`.
-If the number contains a 5, print `Fuzz` (if it contains multiple 3s or 5s, just print one `Bizz` or `Fuzz`).
-If the number contains more than one of these attributes, print every word (for example 33 prints `FizzBizz`, as 33 is both a multiple of 3 and contains the digit 3).
+ - If the number contains a 3 (for example 23), print `Bizz`.
+ - If the number contains a 5, print `Fuzz` (if it contains multiple 3s or 5s, just print one `Bizz` or `Fuzz`).
+ - If the number contains more than one of these attributes, print every word (for example 33 prints `FizzBizz`, as 33 is both a multiple of 3 and contains the digit 3).
 
 #### Expected Output
 
